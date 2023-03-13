@@ -1,0 +1,54 @@
+.team {
+  background: #161c24;
+  height: 752px;
+  opacity: 88%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #161c24;
+  opacity: 0.88;
+  border-radius: 0px;
+  
+}
+
+.teamAll {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+h2 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+.teamTxt {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.teamInfo {
+  width: 345px;
+  height: 435px;
+  padding: 160px 0px;
+}
