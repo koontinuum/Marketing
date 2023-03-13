@@ -1,0 +1,28 @@
+.main {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.left {
+  width: 50%;
+}
+.left h2 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fa541c;
+}
+.left h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #212b36;
+}
+.left p {
+  padding-right: 21%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #637381;
+}
