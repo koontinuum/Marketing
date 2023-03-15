@@ -2,9 +2,78 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-family: "Poppins", sans-serif;
 }
+
 .linksleft {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.linksleft a {
+  text-decoration: none;
+  color: #637381;
+  margin-bottom: 5px;
+}
+.linksleft a:hover {
+  color: #fa541c;
+}
+.linksleft .pages {
+  display: flex;
+  align-items: center;
+}
+.linksleft .pages img {
+  margin-top: 2.5px;
+}
+.linksleft .pages p {
+  margin-left: 5px;
+}
+
+.linksright {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linksright a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212b36;
+  text-decoration: none;
+}
+.linksright a img {
+  margin-top: 10px;
+}
+.linksright p img {
+  margin-top: 10px;
+}
+.linksright .joinupbtn {
+  width: 83px;
+  height: 36px;
+  border-radius: 8px;
+  background: #212b36;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.linksright .loginbtn {
+  width: 83px;
+  height: 36px;
+  background: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.linksright .loginbtn:hover {
+  color: #fa541c;
+}
+.linksright .joinupbtn:hover {
+  color: #fa541c;
 }

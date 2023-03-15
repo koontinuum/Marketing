@@ -1,0 +1,139 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  margin-top: 120px;
+}
+.up {
+  width: 100%;
+  align-items: start;
+}
+.up b {
+  width: 200px;
+  height: 28px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #919eab;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.up h1 {
+  width: 238px;
+  height: 64px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+}
+.up p {
+  width: 480px;
+  height: 56px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #637381;
+}
+.seo h1,
+.email h1,
+.search h1,
+.social h1 {
+  width: 200px;
+  height: 56px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #212b36;
+}
+.seo p,
+.email p,
+.search p,
+.social p {
+  width: 200px;
+  height: 52px;
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #637381;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.seo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 264px;
+  height: 376px;
+  padding: 40px 32px;
+  gap: 40px;
+  background: #ffffff;
+  box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
+  border-radius: 16px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 32px;
+  gap: 40px;
+  width: 264px;
+  height: 424px;
+  background: #ffffff;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  border-radius: 16px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 32px;
+  gap: 40px;
+  width: 264px;
+  height: 484px;
+  background: #ffffff;
+  box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+  border-radius: 16px;
+  margin-right: 50px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 32px;
+  gap: 40px;
+  width: 264px;
+  height: 420px;
+  background: #ffffff;
+  box-shadow: -4px 4px 24px rgba(145, 158, 171, 0.08);
+  border-radius: 16px;
+  margin-top: 70px;
+}
+.seo img {
+  width: 88px;
+  height: 88px;
+}
+.seo .arrowBtn {
+  width: 24px;
+  height: 15px;
+}
