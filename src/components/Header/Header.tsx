@@ -34,8 +34,8 @@ function Header() {
         <p>
           <img src={layer} alt="" />
         </p>
-        <a href="#">Login</a>
-        <button>Join Us</button>
+        <button className={css.loginbtn}>Login</button>
+        <button className={css.joinupbtn}>Join Us</button>
       </div>
     </div>
   );

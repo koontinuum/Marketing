@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  margin-bottom: 100px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -16,6 +17,9 @@
   text-decoration: none;
   color: #637381;
   margin-bottom: 5px;
+}
+.linksleft a:hover {
+  color: #fa541c;
 }
 .linksleft .pages {
   display: flex;
@@ -47,14 +51,29 @@
 .linksright p img {
   margin-top: 10px;
 }
-.linksright button {
+.linksright .joinupbtn {
   width: 83px;
   height: 36px;
   border-radius: 8px;
   background: #212b36;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   border: none;
   cursor: pointer;
+}
+.linksright .loginbtn {
+  width: 83px;
+  height: 36px;
+  background: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.linksright .loginbtn:hover {
+  color: #fa541c;
+}
+.linksright .joinupbtn:hover {
+  color: #fa541c;
 }

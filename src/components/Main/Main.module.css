@@ -1,6 +1,8 @@
 .main {
   font-family: "Poppins", sans-serif;
   width: 100%;
+  height: 100%;
+  display: flex;
 }
 .left {
   width: 50%;
@@ -11,12 +13,15 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #fa541c;
+  font-family: "Poppins";
 }
 .left h1 {
+  width: 432px;
   font-weight: 700;
   font-size: 64px;
   line-height: 80px;
   color: #212b36;
+  font-family: "Barlow", sans-serif;
 }
 .left p {
   padding-right: 21%;
@@ -25,4 +30,38 @@
   font-size: 18px;
   line-height: 28px;
   color: #637381;
+}
+.leftbtn {
+  display: flex;
+  align-items: center;
+}
+.leftbtn button {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background: #fa541c;
+  border-radius: 8px;
+  width: 132px;
+  height: 48px;
+  border: none;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.leftbtn button:hover {
+  color: #000000;
+}
+.leftbtn h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  color: #212b36;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.leftbtn h1:hover {
+  color: #fa541c;
+}
+.right {
+  width: 50%;
 }
