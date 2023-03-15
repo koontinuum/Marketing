@@ -1,0 +1,193 @@
+.pricingUp {
+  display: flex;
+  margin: 120px 0px;
+}
+.pricingUpLeft {
+  box-sizing: border-box;
+  width: 425px;
+}
+
+.pricingUpRight {
+  width: 100%;
+  display: flex;
+  /* text-align: right; */
+  align-items: end;
+  justify-content: end;
+}
+.pricingUpRightItem {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 35px;
+  gap: 16px;
+}
+.pricingP {
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #919eab;
+}
+.pricingTitle {
+  width: 425px;
+  height: 64px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+}
+.pricingTxt {
+  height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #637381;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #fa541c;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #fa541c;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+.pricingUpRightItem p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #212b36;
+}
+.pricingDown {
+  border: 1px solid red;
+  width: 100%;
+  height: 610px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15vh;
+}
+.pricingDown div {
+  border: 1px solid red;
+}
+.basic {
+  height: 525px;
+  width: 362px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.standard {
+  height: 570px;
+  width: 362px;
+}
+.premium {
+  height: 608px;
+  width: 362px;
+}
+.basicItem {
+  width: 300px;
+  border: 1px solid red;
+}
+.basicItemTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.basicItemPrice {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+
+ 
+}
+.basicItemDescrip {
+  width: 100%;
+}
+.basicItemList {
+  width: 100%;
+}
+.basicItemBtn {
+  width: 100%;
+}
+.itemPtxt {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fa541c;
+}
+
+.basicItemPrice h5 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212b36;
+  margin: 0;
+}
+.basicItemPrice h6 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #919eab;
+  margin: 5px;
+
+}

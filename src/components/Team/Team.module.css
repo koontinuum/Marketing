@@ -9,7 +9,9 @@
   background: #161c24;
   opacity: 0.88;
   border-radius: 0px;
-  
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+
 }
 
 .teamAll {
@@ -26,6 +28,7 @@ h4 {
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  opacity: 0.48;
 }
 h2 {
   font-family: "Barlow", sans-serif;
@@ -50,5 +53,48 @@ h2 {
 .teamInfo {
   width: 345px;
   height: 435px;
-  padding: 160px 0px;
+  padding: 160px 0;
+}
+.btnVector {
+  display: flex;
+  margin-top: 130px;
+}
+.btnPrev {
+  margin-right: 30px;
+}
+.cards{
+  display: flex;
+}
+.card {
+  width: 275px;
+  height: 435px;
+  /* border: 1px solid red; */
+  margin: 160px 0px;
+  text-align: center;
+  margin-right: 32px;
+}
+.card img {
+  border-radius: 12px;
+  width: 270px;
+}
+.name {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  /* font-weight: 600;
+  font-size: 18px; */
+  /* line-height: 28px; */
+  color: #ffffff;
+  /* margin: 0px; */
+}
+.jobTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  /* font-weight: 400;
+  font-size: 13px; */
+  /* line-height: 24px; */
+  color: #919eab;
+  /* margin: 0px; */
+}
+.teamImg{
+  margin-left: 120px;
 }

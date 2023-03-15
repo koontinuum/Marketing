@@ -1,17 +1,19 @@
-import React from 'react';
-import './App.css';
-import Team from './components/Team/Team';
-import HomePage from './Pages/HomePage/HomePage';
+import React from "react";
+import "./App.css";
+import Pricing from "./components/Pricing/Pricing";
+import Team from "./components/Team/Team";
+import HomePage from "./Pages/HomePage/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
-      <HomePage/>
-     
+      <div className="container">
+        <HomePage />
       </div>
-      <Team/>
-      
+      <Team />
+      <div className="container">
+        <Pricing/>
+      </div>
     </div>
   );
 }
