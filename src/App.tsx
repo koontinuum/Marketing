@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Faqs from "./components/Faqs/Faqs";
+import Footer from "./components/Footer/Footer";
 import { LatestPosts } from "./components/LatestPosts/LatestPosts";
 import Pricing from "./components/Pricing/Pricing";
 import Team from "./components/Team/Team";
@@ -16,10 +18,12 @@ function App() {
       </div>
       <Team />
       <Pricing />
+      <Faqs />
       <Testimonials />
       <LatestPosts />
       <SeoAnalysis />
       <UpFooter />
+      <Footer />
     </div>
   );
 }
