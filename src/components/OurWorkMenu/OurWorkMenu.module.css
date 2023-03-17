@@ -226,9 +226,8 @@
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 18px;
-}
-.text3 h1 {
   margin-left: 15px;
+  margin-top: -20px;
 }
 .bottomCenter {
   display: flex;
@@ -288,4 +287,5 @@
   font-size: 15px;
   line-height: 26px;
   color: #fa541c;
+  margin-bottom: 120px;
 }

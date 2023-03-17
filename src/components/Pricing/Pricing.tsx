@@ -7,7 +7,7 @@ import Vector from "../../assets/Pricing/vector.svg";
 
 function Pricing() {
   return (
-    <div className={styles.pricing}>
+    <div className={styles.pricing + " container"}>
       <div className={styles.pricingUp}>
         <div className={styles.pricingUpLeft}>
           <p className={styles.pricingP}>pricing</p>
@@ -17,7 +17,6 @@ function Pricing() {
             Always flexible to grow
           </p>
         </div>
-
         <div className={styles.pricingUpRight}>
           <div className={styles.pricingUpRightItem}>
             <p>MONTHLY</p>
@@ -25,12 +24,10 @@ function Pricing() {
               <input type="checkbox" />
               <span className={styles.slider}></span>
             </label>
-
             <p>YEARLY (save 10%)</p>
           </div>
         </div>
       </div>
-
       <div className={styles.pricingDown}>
         <div className={styles.basic}>
           <div className={styles.basicItem}>
@@ -118,6 +115,9 @@ function Pricing() {
             <div className={styles.basicItemBtn}>
               <button>Get Started</button>
             </div>
+            <div className={styles.basicItemDescrip}></div>
+            <div className={styles.basicItemList}></div>
+            <div className={styles.basicItemBtn}></div>
           </div>
         </div>
       </div>
