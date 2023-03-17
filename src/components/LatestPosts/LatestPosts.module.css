@@ -1,0 +1,114 @@
+.sliderWrapper {
+  margin-bottom: 120px;
+}
+.mainText {
+  width: 100%;
+  margin-top: 120px;
+}
+.mainText h1 {
+  width: 1152px;
+  height: 64px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+}
+h3 {
+  display: flex;
+}
+.test h1 {
+  width: 276px;
+  height: 72px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+  margin-top: -300px;
+}
+h3 p {
+  width: 170px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #919eab;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  width: 357px;
+  height: 482px;
+  background: #ffffff;
+  box-shadow: -12px 12px 48px -4px rgba(145, 158, 171, 0.12);
+  border-radius: 16px;
+}
+
+.nextArrow {
+  transform: rotate(180deg);
+}
+b {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 200px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+b img {
+  width: 40px;
+  height: 40px;
+}
+.imageBackground {
+  width: 500px;
+  height: 482px;
+}
+.imageBackground img {
+  width: 500px;
+  height: 560px;
+}
+.imageBackground {
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  width: 357px;
+  height: 480px;
+  box-shadow: -12px 12px 48px -4px rgba(145, 158, 171, 0.12);
+  border-radius: 16px;
+  position: absolute;
+  top: 0px;
+  right: 25px;
+}
+.text b img {
+  width: 40px;
+  height: 40px;
+}
+.text h1 {
+  width: 282px;
+  height: 108px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: -300px;
+}
