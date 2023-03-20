@@ -1,13 +1,16 @@
 .main {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  height: 100%;
   display: flex;
 }
-.left {
+.mainLeft {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
 }
-.left h2 {
+.mainLeft h2 {
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
@@ -15,7 +18,7 @@
   color: #fa541c;
   font-family: "Poppins";
 }
-.left h1 {
+.mainLeft h1 {
   width: 432px;
   font-weight: 700;
   font-size: 64px;
@@ -23,11 +26,13 @@
   color: #212b36;
   font-family: "Barlow", sans-serif;
 }
-.left p {
-  padding-right: 21%;
+.mainLeft p {
+  width: 432px;
+  height: 84px;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   color: #637381;
 }
@@ -48,6 +53,9 @@
   margin-right: 40px;
   cursor: pointer;
 }
+.leftbtn img {
+  cursor: pointer;
+}
 .leftbtn button:hover {
   color: #000000;
 }
@@ -62,6 +70,6 @@
 .leftbtn h1:hover {
   color: #fa541c;
 }
-.right {
+.mainRight {
   width: 50%;
 }
