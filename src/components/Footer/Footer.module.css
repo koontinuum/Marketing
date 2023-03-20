@@ -1,5 +1,6 @@
 .footer {
   width: 100%;
+  margin-top: 85px;
 }
 .footerContent {
   width: 100%;
@@ -14,20 +15,19 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
-  /* or 185% */
-
-  /* 11 Text Color/Light/02 Text Secondary */
-
   color: #637381;
 }
 .center {
-  width: 30%;
+  width: 20%;
   display: flex;
+  justify-content: start;
   flex-direction: column;
   gap: 28px;
 }
 .right {
-  width: 40%;
+  display: flex;
+  justify-content: start;
+  width: 35%;
 }
 .center div {
   display: flex;
@@ -69,10 +69,8 @@
 .right button {
   width: 48px;
   height: 48px;
-
-  /* 01 Primary/03 Main */
-
   background: #fa541c;
+  color: #fff;
   border-radius: 8px;
   outline: none;
   border: none;
@@ -81,26 +79,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 90px;
 }
-.footerBottom p,
-p {
+.footerBottom div {
   display: flex;
   align-items: center;
   gap: 24px;
+  width: 270px;
+  height: 72px;
 }
-.footerBottom p {
-
-
-  /* Body3 */
-
+.footerBottom div,
+p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
-  /* identical to box height, or 185% */
-
-  /* 11 Text Color/Light/02 Text Secondary */
-
   color: #637381;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 120px;
+  height: 36px;
 }

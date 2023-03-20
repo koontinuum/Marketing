@@ -77,3 +77,37 @@
 .linksright .joinupbtn:hover {
   color: #fa541c;
 }
+
+.menu {
+  display: flex;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  position: relative;
+}
+.menu a {
+  border-radius: 5px;
+  display: block;
+  align-items: center;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all 0.5s;
+}
+.menu a:hover {
+  color: #ffffff;
+  background: #fa541c;
+}
+.menu ul {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: none;
+  padding: 0;
+}
+.menu li:hover ul {
+  display: block;
+}

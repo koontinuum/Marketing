@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 .slick-next,
@@ -18,11 +22,14 @@
 }
 .slick-prev:before,
 .slick-next:before {
-  display: none;
+  background-image: url();
 }
 .slick-dots {
   bottom: -85px;
 }
 .fullContainer {
   width: 100%;
+}
+.containerSlider {
+  width: 90%;
 }

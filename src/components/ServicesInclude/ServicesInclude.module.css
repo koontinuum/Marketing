@@ -1,0 +1,70 @@
+.servicesMenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
+}
+.servicesMenu h1 {
+  width: 352px;
+  height: 64px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+}
+.servicesMenu p {
+  width: 480px;
+  height: 56px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #637381;
+}
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+  width: 100%;
+  margin-top: 80px;
+}
+.mainContent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 40px;
+  width: 330.67px;
+  height: 206px;
+}
+.mainContent div h1 {
+  width: 243px;
+  height: 30px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #212b36;
+}
+.mainContent div p {
+  width: 330.67px;
+  height: 56px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #637381;
+}

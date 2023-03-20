@@ -28,6 +28,7 @@ export const Testimonials = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
     nextArrow: (
       <SampleNextArrow
         className={undefined}

@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  margin: 120px 0 0 0;
+  margin: 200px 0 0 0;
   display: flex;
   flex-direction: column;
 }
@@ -22,6 +22,7 @@
   font-size: 14px;
   line-height: 26px;
   color: #637381;
+  margin-top: 20px;
 }
 .main {
   display: flex;
@@ -57,6 +58,7 @@
   color: white;
   opacity: 0.48;
   margin-left: 30px;
+  margin-bottom: 10px;
 }
 .text4 p {
   width: 70px;
@@ -200,6 +202,8 @@
   color: #ffffff;
   opacity: 0.48;
   margin-left: 55px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .text2 h1 {
   width: 132px;

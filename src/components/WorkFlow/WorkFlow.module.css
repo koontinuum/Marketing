@@ -5,7 +5,12 @@
   margin-top: 80px;
 }
 .up {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 536px;
+  height: 180px;
 }
 .up b {
   width: 536px;
@@ -13,12 +18,13 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 20px;
   text-transform: uppercase;
   color: #919eab;
 }
 .up h1 {
+  margin-top: 20px;
   width: 357px;
   height: 64px;
   font-family: "Barlow";
@@ -42,6 +48,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 140px;
 }
 .planning {
   display: flex;
@@ -54,7 +61,6 @@
   background: #fdab76;
   box-shadow: -8px 12px 32px rgba(250, 84, 28, 0.2);
   border-radius: 16px;
-  margin-top: 100px;
 }
 .planning button {
   width: 120px;
@@ -68,6 +74,7 @@
   border: none;
   background: #fdab76;
   margin-left: 142px;
+  cursor: pointer;
 }
 .research {
   display: flex;
@@ -81,7 +88,6 @@
   background: #77f0ed;
   box-shadow: -8px 12px 32px rgba(34, 184, 207, 0.2);
   border-radius: 16px;
-  margin-top: 80px;
 }
 .research button {
   width: 120px;
@@ -96,6 +102,7 @@
   border: none;
   background: #77f0ed;
   margin-left: 142px;
+  cursor: pointer;
 }
 .optimizing {
   display: flex;
@@ -109,7 +116,6 @@
   background: #ffe475;
   box-shadow: -8px 12px 32px rgba(255, 200, 26, 0.2);
   border-radius: 16px;
-  margin-top: 60px;
 }
 .optimizing button {
   width: 135px;
@@ -124,6 +130,7 @@
   background: #ffe475;
   color: #7a5204;
   margin-left: 130px;
+  cursor: pointer;
 }
 .results {
   display: flex;
@@ -137,7 +144,6 @@
   background: #69f290;
   box-shadow: -8px 12px 32px rgba(12, 214, 110, 0.2);
   border-radius: 16px;
-  margin-top: 40px;
 }
 .results button {
   width: 135px;
@@ -152,4 +158,21 @@
   background: #69f290;
   color: #02665b;
   margin-left: 130px;
+  cursor: pointer;
+}
+.planning:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.research:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.optimizing:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.results:hover {
+  transition: 1s;
+  transform: scale(1.2);
 }

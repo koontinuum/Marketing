@@ -54,7 +54,7 @@ export const LatestPosts = () => {
       </div>
       <div>
         <Slider {...settings}>
-          <div className={css.mainWrapper}>
+          <div>
             <h3>
               <div className={css.test}>
                 <p>15 Dec 2020 · 8 min read </p>

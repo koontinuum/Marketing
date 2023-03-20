@@ -10,29 +10,31 @@ import marketingImg from "../../assets/brandsLogo/marketingImg.svg";
 
 function BrandsLogo() {
   return (
-    <div className={css.brands}>
-      <div className={css.top}>
-        <a href="#">
-          <img src={spotify} alt="" />
-        </a>
-        <a href="#">
-          <img src={slack} alt="" />
-        </a>
-        <a href="#">
-          <img src={netflix} alt="" />
-        </a>
-        <a href="#">
-          <img src={heroku} alt="" />
-        </a>
-        <a href="#">
-          <img src={vimeo} alt="" />
-        </a>
-        <a href="#">
-          <img src={airbnb} alt="" />
-        </a>
-      </div>
-      <div className={css.bottom}>
-        <img src={marketingImg} alt="" />
+    <div className="container">
+      <div className={css.brands}>
+        <div className={css.top}>
+          <a href="#">
+            <img src={spotify} alt="" />
+          </a>
+          <a href="#">
+            <img src={slack} alt="" />
+          </a>
+          <a href="#">
+            <img src={netflix} alt="" />
+          </a>
+          <a href="#">
+            <img src={heroku} alt="" />
+          </a>
+          <a href="#">
+            <img src={vimeo} alt="" />
+          </a>
+          <a href="#">
+            <img src={airbnb} alt="" />
+          </a>
+        </div>
+        <div className={css.bottom}>
+          <img src={marketingImg} alt="" />
+        </div>
       </div>
     </div>
   );

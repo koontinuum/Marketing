@@ -1,0 +1,203 @@
+.mainBackground {
+  width: 100%;
+  background-image: url(../../assets/headerLogo/mainIMG.png);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.linksleft {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linksleft a {
+  text-decoration: none;
+  color: #637381;
+  margin-bottom: 5px;
+}
+.linksleft a:hover {
+  color: #fa541c;
+}
+.linksleft .pages {
+  display: flex;
+  align-items: center;
+}
+.linksleft .pages img {
+  margin-top: 2.5px;
+}
+.linksleft .pages p {
+  margin-left: 5px;
+}
+
+.linksright {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linksright a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212b36;
+  text-decoration: none;
+}
+.linksright a img {
+  margin-top: 10px;
+}
+.linksright p img {
+  margin-top: 10px;
+}
+.linksright .joinupbtn {
+  width: 83px;
+  height: 36px;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #212b36;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.linksright .loginbtn {
+  width: 83px;
+  height: 36px;
+  background: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.linksright .loginbtn:hover {
+  color: #fa541c;
+}
+.linksright .joinupbtn:hover {
+  color: #fa541c;
+}
+
+.selectMenu {
+  display: flex;
+}
+.selectMenu li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  position: relative;
+}
+.selectMenu a {
+  width: 63px;
+
+  border-radius: 5px;
+  display: block;
+  align-items: center;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all 0.5s;
+}
+.selectMenu a:hover {
+  color: #ffffff;
+  background: #fa541c;
+}
+.selectMenu ul {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: none;
+  padding: 0;
+}
+.selectMenu li:hover ul {
+  display: block;
+}
+.mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+.mainText h1 {
+  width: 316px;
+  height: 80px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+.mainText p {
+  width: 480px;
+  height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.72;
+}
+.mainInputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 20px;
+  width: 760px;
+  height: 64px;
+  background: rgba(145, 158, 171, 0.08);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  margin-bottom: 120px;
+}
+.mainInputs input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 14px;
+  gap: 8px;
+  width: 288.5px;
+  height: 26px;
+  border: none;
+  outline: none;
+  background: rgba(145, 158, 171, 0);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #919eab;
+}
+.mainInputs .borderHr {
+  border-right: 2px solid rgba(145, 158, 171, 0.24);
+}
+.mainInputs button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 22px;
+  width: 106px;
+  height: 48px;
+  background: #fa541c;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  border: none;
+}

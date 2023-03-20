@@ -10,7 +10,6 @@
 .pricingUpRight {
   width: 100%;
   display: flex;
-  /* text-align: right; */
   align-items: end;
   justify-content: end;
 }
@@ -127,6 +126,10 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: -4px 4px 24px rgba(145, 158, 171, 0.08);
+  border-radius: 16px;
 }
 .standard {
   height: 570px;
@@ -231,10 +234,6 @@ ul {
   font-weight: 600;
   font-size: 15px;
   line-height: 26px;
-  /* identical to box height, or 173% */
-
-  /* 08 Common/01 White */
-
   color: #ffffff;
   border: none;
 }
