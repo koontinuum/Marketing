@@ -1,0 +1,36 @@
+.faqsDescripAll {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(145, 158, 171, 0.24);
+  margin-top: 20px;
+}
+.faqsTitle {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.faqsTitle p {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* 11 Text Color/Light/01 Text Primary */
+
+  color: #212b36;
+}
+.faqsDescription {
+  border-bottom: 1px solid rgba(145, 158, 171, 0.24);
+}
+.faqsDescripAll p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+}

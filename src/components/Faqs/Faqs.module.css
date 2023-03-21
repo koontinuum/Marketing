@@ -2,6 +2,7 @@
   border: 1px solid red;
 } */
 .faqs {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
@@ -10,8 +11,14 @@
 }
 .faqsLeft {
   width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .faqsRight {
+  position: absolute;
+  top: 0%;
+  right: 0;
   width: 47%;
   display: flex;
   align-items: center;
@@ -27,6 +34,11 @@
 .faqsDescripAll {
   display: flex;
   justify-content: space-between;
+  height: 65px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(145, 158, 171, 0.24);
 }
 .faqsF {
   font-family: "Poppins", sans-serif;
@@ -34,10 +46,6 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  /* identical to box height, or 167% */
-
-  /* 11 Text Color/Light/03 Text Disabled */
-
   color: #919eab;
 }
 .faqsTitle {
@@ -46,11 +54,8 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  /* or 133% */
-
-  /* 11 Text Color/Light/01 Text Primary */
-
   color: #212b36;
+  margin-bottom: 60px;
 }
 .faqsDescripTop {
   font-family: "Barlow", sans-serif;
@@ -58,13 +63,9 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
-
-  /* 11 Text Color/Light/01 Text Primary */
-
   color: #212b36;
 }
-.faqsDescripTop{
+.faqsDescripTop {
   cursor: pointer;
 }
 .faqsDescripBottom {
@@ -73,25 +74,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-
-  /* 11 Text Color/Light/01 Text Primary */
-
   color: #212b36;
 }
-.faqsDescripAll {
+.faqsDescripAll img {
+  cursor: pointer;
+}
+.faqsDescripAll p {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
-
-  /* 11 Text Color/Light/01 Text Primary */
-
   color: #212b36;
-  border-bottom: 1px solid rgba(145, 158, 171, 0.24);;
-}
-.faqsDescripAll img{
-  cursor: pointer;
 }
