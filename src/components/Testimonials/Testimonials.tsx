@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
 import css from "./Testimonials.module.css";
 import arrow from "../../assets/testimonialsSlide/leftArrow.svg";

@@ -26,6 +26,7 @@ function HeaderSeo() {
                 <ul>
                   <li>
                     <Link to="/seopage">SeoPage</Link>
+                    <Link to="/casepage">CasePage</Link>
                   </li>
                 </ul>
               </li>
