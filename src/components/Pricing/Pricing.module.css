@@ -206,6 +206,7 @@ input:checked + .slider:before {
   color: #637381;
   margin: 30px 0;
 }
+.basicItemList li {
 .rangeUl li {
   list-style: none;
   display: flex;
@@ -217,6 +218,10 @@ input:checked + .slider:before {
   line-height: 26px;
   color: #212b36;
 }
+.basicItemList li img {
+  margin: 0 15px 0 0;
+}
+.basicItemList ul {
 .rangeUl li img {
   margin: 0 15px 0 0;
 }

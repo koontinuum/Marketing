@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SeoPage from "./Pages/SeoPage/SeoPage";
 import CasePage from "./Pages/CasePage/CasePage";
+import CaseStudiesPage from "./Pages/CaseStudiesPage/CaseStudiesPage";
 import BlogDetailsPage from "./Pages/BlogDetailsPage/BlogDetailsPage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 
