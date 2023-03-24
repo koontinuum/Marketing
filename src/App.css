@@ -6,6 +6,11 @@
   width: 85%;
   margin: 0 auto;
 }
+.socialPlaceContainer {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .slick-next,
 .slick-prev {
   background: #f9fafb;

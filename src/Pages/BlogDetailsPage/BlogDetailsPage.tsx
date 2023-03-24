@@ -1,19 +1,20 @@
+import BlogBigContent from "../../components/BlogBigContent/BlogBigContent";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { LatestPosts } from "../../components/LatestPosts/LatestPosts";
-import OurCaseStudies, {
-  AppendDots,
-} from "../../components/OurCaseStudies/OurCaseStudies";
+import PlaceMainText from "../../components/PlaceMainText/PlaceMainText";
 import SeoAnalysis from "../../components/SeoAnalysis/SeoAnalysis";
-import Testimonials from "../../components/Testimonials/Testimonials";
+import SocialPlace from "../../components/SocialPlace/SocialPlace";
 import UpFooter from "../../components/UpFooter/UpFooter";
 
-function CasePage() {
+function BlogDetailsPage() {
   return (
     <>
       <Header />
-      <AppendDots />
-      <Testimonials />
+      <BlogBigContent />
+      <SocialPlace />
+      <PlaceMainText />
+      <hr />
       <LatestPosts />
       <SeoAnalysis />
       <UpFooter />
@@ -22,4 +23,4 @@ function CasePage() {
   );
 }
 
-export default CasePage;
+export default BlogDetailsPage;
