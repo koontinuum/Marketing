@@ -206,7 +206,7 @@ input:checked + .slider:before {
   color: #637381;
   margin: 30px 0;
 }
-li {
+.basicItemList li {
   list-style: none;
   display: flex;
   align-items: center;
@@ -217,10 +217,10 @@ li {
   line-height: 26px;
   color: #212b36;
 }
-li img {
+.basicItemList li img {
   margin: 0 15px 0 0;
 }
-ul {
+.basicItemList ul {
   padding: 0;
   margin: 0;
   display: flex;

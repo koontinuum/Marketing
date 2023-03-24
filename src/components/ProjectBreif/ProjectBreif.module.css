@@ -1,0 +1,96 @@
+.pBreifUp {
+  display: flex;
+  gap: 14px;
+  margin: 80px 0;
+}
+.pBreifUp p {
+  cursor: pointer;
+}
+.pBreifAll {
+  display: flex;
+  justify-content: space-between;
+}
+.pBreifLeft {
+  width: 60%;
+}
+.pBreifRight {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  background: #f9fafb;
+  height: 500px;
+  border-radius: 8px;
+}
+.pBreifLeft h4 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #212b36;
+  margin-top: 20px;
+}
+.pBreifLeft p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+  margin-top: 16px;
+}
+.pBreifLeft li {
+  list-style: inside;
+  margin-top: 5px;
+  margin-left: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+}
+.pBreifLeft ul {
+  margin-top: 16px;
+}
+.pBreifRightContent {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.pBreifRightContent h6 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #919eab;
+  margin: 16px 0;
+}
+.pBreifRightContent h4 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+}
+.pBreifRightContent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+.share{
+  display: flex;
+}
+.share h5{
+  margin-right: 15px;
+}
+.share img{
+  margin-right: 21px;
+}
