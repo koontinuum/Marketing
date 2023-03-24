@@ -1,0 +1,128 @@
+.mainText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainText b {
+  margin-top: 80px;
+  color: #919eab;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+.mainText h1 {
+  margin-top: 24px;
+  width: 760px;
+  height: 128px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+}
+.mainText p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  width: 760px;
+  height: 90px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #212b36;
+}
+
+.accInfo {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accLeft {
+  gap: 12px;
+  display: flex;
+}
+.accLeft img {
+  width: 48px;
+  height: 48px;
+}
+.soccHr {
+  border: 1px solid #919eab3d;
+}
+.accLeft h1 {
+  width: 92px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+.accLeft h1 p {
+  width: 150px;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #637381;
+}
+.accRight {
+  display: flex;
+  gap: 19px;
+}
+.secondText {
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+.secondText .left h1 {
+  width: 48px;
+  height: 64px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 64px;
+  color: #212b36;
+}
+.secondText .right p {
+  width: 682px;
+  height: 84px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+}
+.seccBottomText {
+  margin-bottom: 40px;
+  width: 746px;
+  height: 28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+}
+.seccFullBottomText p {
+  width: 760px;
+  height: 168px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+}

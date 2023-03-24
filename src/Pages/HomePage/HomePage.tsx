@@ -10,7 +10,7 @@ import Pricing from "../../components/Pricing/Pricing";
 import SeoAnalysis from "../../components/SeoAnalysis/SeoAnalysis";
 import ServicesMenu from "../../components/ServicesMenu/ServicesMenu";
 import Team from "../../components/Team/Team";
-import { Testimonials } from "../../components/Testimonials/Testimonials";
+import Testimonials from "../../components/Testimonials/Testimonials";
 import UpFooter from "../../components/UpFooter/UpFooter";
 import WorkFlow from "../../components/WorkFlow/WorkFlow";
 
