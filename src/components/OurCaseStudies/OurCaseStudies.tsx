@@ -32,20 +32,20 @@ export const AppendDots = () => {
     ) => (
       <div
         style={{
-          backgroundColor: "#ddd",
-          borderRadius: "10px",
+          backgroundColor: "#fff",
+          borderRadius: "",
           padding: "10px",
         }}
       >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
+        <ul style={{ margin: "0px", border: "none" }}> {dots} </ul>
       </div>
     ),
     customPaging: (i: number) => (
       <div
         style={{
           width: "30px",
-          color: "blue",
-          border: "1px blue solid",
+          color: "#212B36",
+          border: "none",
         }}
       >
         {i + 1}

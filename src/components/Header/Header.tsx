@@ -26,6 +26,8 @@ function Header() {
                 <li>
                   <Link to="/seopage">SeoPage</Link>
                   <Link to="/casepage">CasePage</Link>
+                  <Link to="/blogpage">BlogPage</Link>
+                  <Link to="/contactpage">ContactPage</Link>
                 </li>
               </ul>
             </li>

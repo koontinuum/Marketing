@@ -6,7 +6,7 @@ import { LatestPosts } from "../../components/LatestPosts/LatestPosts";
 import OfflineSeo from "../../components/OfflineSeo/OfflineSeo";
 import SeoAnalysis from "../../components/SeoAnalysis/SeoAnalysis";
 import ServicesInclude from "../../components/ServicesInclude/ServicesInclude";
-import { Testimonials } from "../../components/Testimonials/Testimonials";
+import Testimonials from "../../components/Testimonials/Testimonials";
 import UpFooter from "../../components/UpFooter/UpFooter";
 
 function SeoPage() {

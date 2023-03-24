@@ -44,7 +44,7 @@ function Pricing() {
                 tristique sapien
               </div>
               <div className={styles.basicItemList}>
-                <ul>
+                <ul className={styles.rangeUl}>
                   <li>
                     <p>
                       <img src={Vector} alt="" /> Auto update mode
@@ -81,7 +81,7 @@ function Pricing() {
                 Maecenas nec odio et ante tincidunt tempus.
               </div>
               <div className={styles.basicItemList}>
-                <ul>
+                <ul className={styles.rangeUl}>
                   <li>
                     <p>
                       <img src={Vector} alt="" /> Auto update mode
@@ -123,7 +123,7 @@ function Pricing() {
                 Sed lectus. Sed consequat, leo eget bibendum sodales
               </div>
               <div className={styles.basicItemList}>
-                <ul>
+                <ul className={styles.rangeUl}>
                   <li>
                     <p>
                       <img src={Vector} alt="" /> Auto update mode

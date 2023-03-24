@@ -78,20 +78,18 @@
   color: #fa541c;
 }
 
-.menu {
-  display: flex;
-}
 .menu li {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: start;
+  text-align: start;
+  justify-content: start;
   list-style: none;
   position: relative;
 }
 .menu a {
   border-radius: 5px;
   display: block;
-  align-items: center;
   padding: 0 10px;
   height: 40px;
   line-height: 40px;
