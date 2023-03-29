@@ -1,0 +1,62 @@
+.whoWe {
+  display: flex;
+}
+.whoWeLeft {
+  width: 49%;
+}
+.whoWeRight {
+  width: 44%;
+}
+.whoWeRight h2 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+  margin-top: 15px;
+}
+.whoWeRight p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #637381;
+  margin-top: 24px;
+}
+.whoWeRight button {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #212b36;
+  border: 3px solid #f7f9f6;
+  margin-top: 50px;
+}
+.whoWeBottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 160px 0;
+}
+.contentBottom {
+  text-align: center;
+}
+.contentBottom h2 {
+  margin: 20px 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #212b36;
+}

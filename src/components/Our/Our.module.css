@@ -1,0 +1,86 @@
+.our {
+  width: 100%;
+  height: 807px;
+  background-image: url(../../assets/Our/ourBack.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  gap: 200px;
+}
+.ourContent h2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+.ourContent p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.ourContent img {
+  cursor: pointer;
+}
+.ourCore {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+.ourCore h2 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #212b36;
+  margin-bottom: 80px;
+}
+.coreScroll {
+  display: flex;
+  justify-content: space-between;
+}
+.scrollAll {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.scrollAll h4 {
+  margin: 40px 0 16px 0;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #212b36;
+}
+.scrollAll p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #637381;
+}

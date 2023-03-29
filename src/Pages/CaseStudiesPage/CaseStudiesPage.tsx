@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { LatestPosts } from "../../components/LatestPosts/LatestPosts";
 import SeoAnalysis from "../../components/SeoAnalysis/SeoAnalysis";
-import { Testimonials } from "../../components/Testimonials/Testimonials";
+import  Testimonials  from "../../components/Testimonials/Testimonials";
 import UpFooter from "../../components/UpFooter/UpFooter";
 
 function CaseStudiesPage() {
