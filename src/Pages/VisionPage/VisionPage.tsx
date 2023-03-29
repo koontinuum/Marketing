@@ -1,7 +1,11 @@
+import React from "react";
+import OurStory from "../../assets/OurStory/OurStory";
+import Header from "../../components/Header/Header";
+import Our from "../../components/Our/Our";
+import WhoWe from "../../components/WhoWe/WhoWe";
 import BrandsClients from "../../components/BrandsClientsLogo/BrandsClients";
 import Faqs from "../../components/Faqs/Faqs";
 import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
 import { LatestPosts } from "../../components/LatestPosts/LatestPosts";
 import MarketingTeam from "../../components/PlaceMarketingTeam/MarketingTeam";
 import SeoAnalysis from "../../components/SeoAnalysis/SeoAnalysis";
@@ -12,6 +16,8 @@ function VisionPage() {
   return (
     <>
       <Header />
+      <Our/>
+      <OurStory/>
       <MarketingTeam />
       <Testimonials />
       <BrandsClients />

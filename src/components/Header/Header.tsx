@@ -28,6 +28,7 @@ function Header() {
                   <Link to="/casepage">CasePage</Link>
                   <Link to="/studiespage">CaseStudiesPage</Link>
                   <Link to="/blogpage">BlogPage</Link>
+                  <Link to='/visionpage'>VisionPage</Link>
                   <Link to="/sliderspage">SlidersPage</Link>
                   <Link to="/visionpage">VisionPage</Link>
                   <Link to="/contactpage">ContactPage</Link>

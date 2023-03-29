@@ -17,6 +17,9 @@ function App() {
         <Route path="/seopage" element={<SeoPage />} />
         <Route path="/casepage" element={<CasePage />} />
         <Route path="/blogpage" element={<BlogDetailsPage />} />
+        <Route path="studiespage" element={<CaseStudiesPage/>}/>
+        <Route path="/contactpage" element={<ContactPage />} />
+        <Route path="/visionpage" element={<VisionPage/>}/>
         <Route path="/sliderspage" element={<SlidersPage />} />
         <Route path="/studiespage" element={<CaseStudiesPage />} />
         <Route path="/contactpage" element={<ContactPage />} />

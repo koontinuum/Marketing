@@ -221,7 +221,7 @@ input:checked + .slider:before {
 
 .rangeUl li img,
 .basicItemList li img {
-  margin-right: 15px;
+  margin: 0 15px 0 0;
 }
 .rangeUl {
   padding: 0;

@@ -1,0 +1,149 @@
+.ourStory {
+  margin: 120px 0;
+  background: #f9fafb;
+}
+.story {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.storyTitle {
+  width: 480px;
+  text-align: center;
+  margin: 120px 0 135px 0;
+}
+.storyTitle h2 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212b36;
+}
+.storyTitle p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #637381;
+  margin-top: 24px;
+}
+.bisnessR {
+  max-width: 400px;
+  margin: 50px 0 50px 50%;
+  position: relative;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.bisnessTitR {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
+
+.bisnessDesR {
+  border-left: rgba(145, 158, 171, 0.24) solid 1px;
+  padding-left: 30px;
+  height: 135px;
+}
+.bisnessTitR h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+}
+.bisnessTitL h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+}
+.bisnessDesR h5 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+  margin-bottom: 8px;
+}
+.bisnessDesL h5 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212b36;
+  margin-bottom: 8px;
+}
+.bisnessL {
+  max-width: 400px;
+  margin-left: 22.13%;
+  position: relative;
+  text-align: right;
+}
+.bisnessTitL {
+  padding: 0 30px;
+  margin-top: 16px;
+}
+.blue {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #22b8cf;
+  position: absolute;
+  top: 6px;
+  left: 98.45%;
+}
+.orange {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #fa541c;
+  position: absolute;
+  top: 6px;
+  left: -6px;
+}
+.yellow {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #ffc81a;
+  position: absolute;
+  top: 6px;
+  left: -6px;
+}
+.green {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #0cd66e;
+  position: absolute;
+  top: 6px;
+  left: 98.45%;
+}
+.bisnessDesL {
+  border-right: rgba(145, 158, 171, 0.24) solid 1px;
+  padding-right: 30px;
+  height: 135px;
+}
+.tOrange {
+  color: #fa541c;
+}
+.tBlue {
+  color: #22b8cf;
+}
+.tYellow {
+  color: #ffc81a;
+}
+.tGreen {
+  color: #0cd66e;
+}
+.history {
+    padding-bottom: 120px;
+}
