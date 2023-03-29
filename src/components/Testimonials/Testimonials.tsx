@@ -2,7 +2,6 @@ import Slider from "react-slick";
 import css from "./Testimonials.module.css";
 import arrow from "../../assets/testimonialsSlide/leftArrow.svg";
 import arrow1 from "../../assets/testimonialsSlide/rightArrow.svg";
-
 import avatar from "../../assets/testimonialsSlide/avatar.svg";
 import { Component } from "react";
 
@@ -62,7 +61,6 @@ export default class CustomArrows extends Component {
       <div className={css.slideContent}>
         <div className="container">
           <div>
-            <h2>Custom Arrows</h2>
             <Slider {...settings}>
               <div>
                 <h3 className={css.slide}>
