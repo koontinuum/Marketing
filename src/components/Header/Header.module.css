@@ -86,7 +86,9 @@
   justify-content: start;
   list-style: none;
   position: relative;
+  z-index: 2;
 }
+
 .menu a {
   border-radius: 5px;
   display: block;
@@ -98,6 +100,7 @@
 .menu a:hover {
   color: #ffffff;
   background: #fa541c;
+  transform: scale(1.1);
 }
 .menu ul {
   position: absolute;
@@ -108,4 +111,16 @@
 }
 .menu li:hover ul {
   display: block;
+}
+
+@media (max-width: 576px) {
+  .linksright {
+    display: none;
+  }
+  .linksleft ul {
+    display: none;
+  }
+  .linksleft a {
+    display: none;
+  }
 }

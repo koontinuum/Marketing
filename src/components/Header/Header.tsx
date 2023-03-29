@@ -10,13 +10,13 @@ function Header() {
   return (
     <div className="container">
       <div className={css.header}>
+        <div>
+          <a href="#">
+            <img src={headerLogo} alt="" />
+            <img src={ellipse} alt="" />
+          </a>
+        </div>
         <div className={css.linksleft}>
-          <div>
-            <a href="#">
-              <img src={headerLogo} alt="" />
-              <img src={ellipse} alt="" />
-            </a>
-          </div>
           <Link to="/">Home</Link>
           <a href="#">Components</a>
           <ul className={css.menu}>
@@ -29,6 +29,8 @@ function Header() {
                   <Link to="/studiespage">CaseStudiesPage</Link>
                   <Link to="/blogpage">BlogPage</Link>
                   <Link to='/visionpage'>VisionPage</Link>
+                  <Link to="/sliderspage">SlidersPage</Link>
+                  <Link to="/visionpage">VisionPage</Link>
                   <Link to="/contactpage">ContactPage</Link>
                 </li>
               </ul>

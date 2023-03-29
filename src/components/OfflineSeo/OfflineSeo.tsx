@@ -16,21 +16,18 @@ function OfflineSeo() {
             suscipit non, turpis. Nunc nonummy metus. Donec elit libero, sodales
             nec
           </p>
-          <ul>
+          <ul className={css.dotsUl}>
             <li>
-              <img src={dot} />
-              First Class Flights
+              <h1>First Class Flights</h1>
             </li>
             <li>
-              <img src={dot} />5 Star Accommodations
+              <h1>5 Star Accommodations</h1>
             </li>
             <li>
-              <img src={dot} />
-              Inclusive Packages
+              <h1>Inclusive Packages</h1>
             </li>
             <li>
-              <img src={dot} />
-              Latest Model Vehicles
+              <h1>Latest Model Vehicles</h1>
             </li>
           </ul>
           <button>Check Our Work →</button>
