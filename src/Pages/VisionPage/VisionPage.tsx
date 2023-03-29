@@ -1,18 +1,22 @@
-import React from "react";
-import CaseStudiesContent from "../../components/CaseStudiesContent/CaseStudiesContent";
+import BrandsClients from "../../components/BrandsClientsLogo/BrandsClients";
+import Faqs from "../../components/Faqs/Faqs";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { LatestPosts } from "../../components/LatestPosts/LatestPosts";
+import MarketingTeam from "../../components/PlaceMarketingTeam/MarketingTeam";
 import SeoAnalysis from "../../components/SeoAnalysis/SeoAnalysis";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import UpFooter from "../../components/UpFooter/UpFooter";
 
-function CaseStudiesPage() {
+function VisionPage() {
   return (
     <>
       <Header />
-      <CaseStudiesContent />
+      <MarketingTeam />
       <Testimonials />
+      <BrandsClients />
+      <LatestPosts />
+      <Faqs />
       <SeoAnalysis />
       <UpFooter />
       <Footer />
@@ -20,4 +24,4 @@ function CaseStudiesPage() {
   );
 }
 
-export default CaseStudiesPage;
+export default VisionPage;

@@ -146,7 +146,7 @@ function Pricing() {
                   </li>
                   <li>
                     <p>
-                      <img src={Vector} alt="" /> 20 Design templates
+                      <img src={Vector} /> 20 Design templates
                     </p>
                   </li>
                 </ul>

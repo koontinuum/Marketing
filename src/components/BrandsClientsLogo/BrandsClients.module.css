@@ -1,0 +1,36 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 512px;
+}
+.main h1 {
+  margin-top: 120px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #212b36;
+}
+.mainbrands {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  gap: 75px;
+  flex-direction: column;
+  align-items: center;
+}
+.mainbrands .up {
+  margin-top: 80px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainbrands .bottom {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
