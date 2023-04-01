@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import arrow from "../../assets/testimonialsSlide/leftArrow.svg";
 import avatar from "../../assets/testimonialsSlide/avatar.svg";
 import bgSmallTest from "../../assets/differentImages/BGsmallTest.svg";
+import SlidersList from "../SlidersList/SlidersList";
 
 function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
   const { className, style, onClick } = props;
@@ -127,7 +128,9 @@ export default class BigSlider extends Component {
             </div>
           </Slider>
         </div>
+      
       </div>
     );
+    
   }
 }
