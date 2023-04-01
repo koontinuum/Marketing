@@ -94,3 +94,29 @@
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 576px) {
+  .teamPlace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 20px;
+    gap: 64px;
+    width: 375px;
+    margin-left: -40px;
+  }
+  .upContacts,
+  .bottomContacts {
+    align-items: center;
+    flex-direction: column;
+    gap: 170px;
+  }
+  .teamPlace h1 {
+    width: 310px;
+    height: 42px;
+    font-size: 32px;
+  }
+  .teamPlace p {
+    width: 335px;
+    height: 84px;
+  }
+}

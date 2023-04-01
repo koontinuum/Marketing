@@ -183,3 +183,54 @@
   border-radius: 50px;
   margin-left: 10px;
 }
+.miniBottom {
+  display: none;
+}
+@media (max-width: 576px) {
+  .top #top_h1 {
+    width: 259px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .top p {
+    width: 335px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .wrapper {
+    height: 973px;
+  }
+  .center img {
+    display: none;
+  }
+  .miniBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 335px;
+    height: 631px;
+  }
+
+  .miniBottom h1 {
+    height: 27px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .miniBottom p {
+    width: 297px;
+    height: 52px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .bottom {
+    display: none;
+  }
+}

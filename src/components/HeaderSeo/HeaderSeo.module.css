@@ -197,3 +197,74 @@
   color: #ffffff;
   border: none;
 }
+.miniHeader {
+  display: none;
+}
+@media (max-width: 576px) {
+  .linksright,
+  .linksleft ul,
+  .linksleft a {
+    display: none;
+  }
+  .mainBackground {
+    background: url(../../assets/headerLogo/miniHeaderBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainBackground .header {
+    height: 64px;
+  }
+  .mainText h1 {
+    width: 198px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .mainText p {
+    width: 335px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .mainInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .mainInputs input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px 8px 14px;
+    gap: 24px;
+    width: 310px;
+    height: 56px;
+    background: rgba(145, 158, 171, 0.08);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+  }
+  .mainInputs button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    width: 335px;
+    height: 48px;
+  }
+  .linksleft div {
+    display: flex;
+  }
+  .burgers {
+    display: flex;
+    gap: 28px;
+    margin-left: 200px;
+  }
+}

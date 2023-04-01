@@ -10,8 +10,8 @@ import logo4 from "../../assets/Footer/twitterIcon.svg";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
-      <div className="container">
+    <div className="container">
+      <div className={styles.footer}>
         <img src={footerLogo} alt="" />
         <div className={styles.footerContent}>
           <div className={styles.left}>

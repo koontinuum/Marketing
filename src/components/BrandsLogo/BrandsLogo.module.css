@@ -2,12 +2,16 @@
   margin-top: 200px;
   width: 100%;
 }
+.mob {
+  display: none;
+}
 .top {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
+
 .top a img:hover {
   transition: 1s;
   transform: scale(1.2);
@@ -20,4 +24,17 @@
   margin-top: 80px;
   width: 100% !important;
   margin-bottom: 80px;
+}
+
+@media (max-width: 576px) {
+  .top {
+    display: none;
+  }
+  .mob {
+    display: initial;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
