@@ -3,6 +3,7 @@ import ellipse from "../../assets/headerLogo/ellipse.svg";
 import search from "../../assets/headerLogo/search.svg";
 import searchWorld from "../../assets/headerLogo/searchWorld.svg";
 import layer from "../../assets/headerLogo/layer.svg";
+import burger from "../../assets/headerLogo/burger.svg";
 import css from "./Header.module.css";
 import { Link } from "react-router-dom";
 
@@ -16,6 +17,10 @@ function Header() {
             <img src={ellipse} alt="" />
           </a>
         </div>
+        <div className={css.miniHeader}>
+          <img src={burger} alt="" />
+          <img src={search} alt="" />
+        </div>
         <div className={css.linksleft}>
           <Link to="/">Home</Link>
           <a href="#">Components</a>
@@ -28,7 +33,7 @@ function Header() {
                   <Link to="/casepage">CasePage</Link>
                   <Link to="/studiespage">CaseStudiesPage</Link>
                   <Link to="/blogpage">BlogPage</Link>
-                  <Link to='/visionpage'>VisionPage</Link>
+                  <Link to="/visionpage">VisionPage</Link>
                   <Link to="/sliderspage">SlidersPage</Link>
                   <Link to="/visionpage">VisionPage</Link>
                   <Link to="/contactpage">ContactPage</Link>

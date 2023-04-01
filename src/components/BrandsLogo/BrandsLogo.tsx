@@ -13,10 +13,10 @@ function BrandsLogo() {
     <div className="container">
       <div className={css.brands}>
         <div className={css.top}>
-          <a href="#">
+          <a className={css.spotify} href="#">
             <img src={spotify} alt="" />
           </a>
-          <a href="#">
+          <a className={css.slack} href="#">
             <img src={slack} alt="" />
           </a>
           <a href="#">
@@ -30,6 +30,14 @@ function BrandsLogo() {
           </a>
           <a href="#">
             <img src={airbnb} alt="" />
+          </a>
+        </div>
+        <div className={css.mob}>
+          <a className={css.spotify} href="#">
+            <img src={spotify} alt="" />
+          </a>
+          <a className={css.slack} href="#">
+            <img src={slack} alt="" />
           </a>
         </div>
         <div className={css.bottom}>

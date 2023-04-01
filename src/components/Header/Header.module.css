@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 100px;
   font-family: "Poppins", sans-serif;
@@ -112,15 +113,22 @@
 .menu li:hover ul {
   display: block;
 }
-
+.miniHeader {
+  display: none;
+}
 @media (max-width: 576px) {
-  .linksright {
-    display: none;
-  }
-  .linksleft ul {
-    display: none;
-  }
+  .linksright,
+  .linksleft ul,
   .linksleft a {
     display: none;
+  }
+  .header {
+    align-items: center;
+  }
+  .miniHeader {
+    display: flex;
+    gap: 28.47px;
+    align-items: center;
+    margin-right: -350px;
   }
 }

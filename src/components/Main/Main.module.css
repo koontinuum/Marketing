@@ -77,3 +77,47 @@
 .mainRight {
   width: 50%;
 }
+@media (max-width: 576px) {
+  .mainRight {
+    display: none;
+  }
+  .mainLeft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .mainLeft h1 {
+    width: 335px;
+    height: 100px;
+    font-family: "Barlow";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .mainLeft p {
+    width: 335px;
+    height: 84px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .leftbtn {
+    display: flex;
+    align-items: center;
+    width: 315px;
+    height: 48px;
+  }
+  .leftbtn button {
+    width: 132px;
+    height: 48px;
+  }
+  .leftbtn h1 {
+    font-size: 15px;
+    line-height: 26px;
+    width: 103px;
+    height: 26px;
+  }
+}

@@ -245,3 +245,58 @@
   outline: none;
   border: none;
 }
+@media (max-width: 576px) {
+  .left img {
+    display: none;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .right h1 {
+    width: 335px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .rightbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 16px;
+    gap: 16px;
+    width: 319px;
+    height: 136px;
+  }
+  .inputs1 input {
+    width: 150px;
+    height: 56px;
+  }
+  .inputs2 input {
+    width: 330px;
+    height: 56px;
+  }
+  .inputs3 textarea {
+    width: 330px;
+    height: 128px;
+  }
+  .inputs3 button {
+    width: 335px;
+    height: 48px;
+    margin-bottom: 65px;
+  }
+  .networks img {
+    display: block;
+  }
+  .networks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 335px;
+    height: 56px;
+  }
+}

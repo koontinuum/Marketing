@@ -68,3 +68,20 @@
   text-align: center;
   color: #637381;
 }
+@media (max-width: 576px) {
+  .servicesMenu h1 {
+    font-size: 32px;
+    width: 235px;
+    height: 62px;
+  }
+  .servicesMenu p {
+    width: 335px;
+    height: 84px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+}

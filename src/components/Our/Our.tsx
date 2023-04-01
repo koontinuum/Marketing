@@ -6,6 +6,7 @@ import customer from "../../assets/Our/customer.svg";
 import transparency from "../../assets/Our/transparency.svg";
 import reputation from "../../assets/Our/reputation.svg";
 import cooperation from "../../assets/Our/cooperation.svg";
+import phoneContent from "../../assets/About/content.svg";
 
 function Our() {
   return (
@@ -16,6 +17,14 @@ function Our() {
           <img src={play} alt="" />
           <p>
             Our vision offering the best product nulla vehicula <br /> tortor
+            scelerisque ultrices malesuada.
+          </p>
+        </div>
+        <div className={css.phoneContent}>
+          <h1>Our Vision</h1>
+          <img src={phoneContent} alt="" />
+          <p>
+            Our vision offering the best product nulla vehicula tortor
             scelerisque ultrices malesuada.
           </p>
         </div>
