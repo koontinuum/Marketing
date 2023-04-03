@@ -51,3 +51,11 @@
   /* align-items: flex-end; */
   margin-top: 60%;
 }
+.userName {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+}
