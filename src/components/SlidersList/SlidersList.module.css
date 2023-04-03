@@ -189,3 +189,14 @@
   cursor: pointer;
 }
 
+@media (max-width: 576px) {
+  .slidersList {
+    flex-direction: column;
+  }
+  .listLeft {
+    margin-left: -15px;
+  }
+  .listRight {
+    width: 100%;
+  }
+}

@@ -13,28 +13,40 @@ function BenefitsAchieved() {
         </div>
         <div className={css.miniBottom}>
           <div>
-            <h1>Online Media Management</h1>
+            <h1>
+              <h1 />
+              Online Media Management
+            </h1>
             <p>
               Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
               nisi.
             </p>
           </div>
           <div>
-            <h1>Online Media Management</h1>
+            <h1>
+              <h2 />
+              Online Media Management
+            </h1>
             <p>
               Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
               nisi.
             </p>
           </div>
           <div>
-            <h1>Online Media Management</h1>
+            <h1>
+              <h3 />
+              Online Media Management
+            </h1>
             <p>
               Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
               nisi.
             </p>
           </div>
           <div>
-            <h1>Online Media Management</h1>
+            <h1>
+              <h4 />
+              Online Media Management
+            </h1>
             <p>
               Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
               nisi.

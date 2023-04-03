@@ -35,7 +35,7 @@ function PlaceMainText() {
           aliquam leo.
         </h1>
       </div>
-      <img src={socialPlaceImg1} alt="" />
+      <img className={css.mainImages} src={socialPlaceImg1} alt="" />
       <div className={css.socialMainText1}>
         <p>
           Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum
