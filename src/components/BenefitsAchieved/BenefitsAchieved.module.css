@@ -233,4 +233,54 @@
   .bottom {
     display: none;
   }
+  .miniBottom div h1 {
+    display: flex;
+    align-items: center;
+  }
+  .miniBottom div h1 h2::before {
+    display: flex;
+    content: "oo";
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(135deg, #69f290 0%, #0cd66e 100%);
+    color: transparent;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  .miniBottom div h1 h1::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    color: linear-gradient(135deg, #fdab76 0%, #fa541c 100%);
+    background: linear-gradient(135deg, #fdab76 0%, #fa541c 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  .miniBottom div h1 h3::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    color: linear-gradient(135deg, #77f0ed 0%, #22b8cf 100%);
+    background: linear-gradient(135deg, #77f0ed 0%, #22b8cf 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  .miniBottom div h1 h4::before {
+    display: flex;
+    content: "oo";
+    width: 25px;
+    height: 25px;
+    color: transparent;
+    background: linear-gradient(135deg, #77f0ed 0%, #22b8cf 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
 }
