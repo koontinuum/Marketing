@@ -11,30 +11,31 @@ function Header() {
   return (
     <div className="container">
       <div className={css.header}>
-        <div>
-          <a href="#">
-            <img src={headerLogo} alt="" />
-            <img src={ellipse} alt="" />
-          </a>
-        </div>
         <div className={css.miniHeader}>
           <img src={burger} alt="" />
           <img src={search} alt="" />
         </div>
         <div className={css.linksleft}>
+          <div>
+            <a href="#">
+              <img src={headerLogo} alt="" />
+              <img src={ellipse} alt="" />
+            </a>
+          </div>
           <Link to="/">Home</Link>
           <a href="#">Components</a>
           <ul className={css.menu}>
             <li>
-              <a href="">Pages</a>
+              <a className={css.pagesLink} href="">
+                Pages
+              </a>
               <ul>
                 <li>
                   <Link to="/seopage">SeoPage</Link>
                   <Link to="/casepage">CasePage</Link>
                   <Link to="/studiespage">CaseStudiesPage</Link>
-                  <Link to="/blogpage">BlogPage</Link>
-                  <Link to="/visionpage">VisionPage</Link>
                   <Link to="/sliderspage">SlidersPage</Link>
+                  <Link to="/blogpage">BlogPage</Link>
                   <Link to="/visionpage">VisionPage</Link>
                   <Link to="/contactpage">ContactPage</Link>
                 </li>

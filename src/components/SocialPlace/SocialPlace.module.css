@@ -126,3 +126,107 @@
   line-height: 28px;
   color: #212b36;
 }
+@media (max-width: 576px) {
+  .mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 410px;
+    margin-bottom: 100px;
+  }
+  .mainText b {
+    width: 106px;
+    height: 26px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .mainText h1 {
+    width: 335px;
+    height: 126px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .mainText p {
+    width: 335px;
+    height: 162px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .accInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    height: 98px;
+    margin-left: -60px;
+  }
+  .soccHr {
+    width: 375px;
+    margin-left: -90px;
+  }
+  .secondText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 335px;
+    height: 84px;
+    margin-left: -80px;
+  }
+  .secondText .right p {
+    width: 271px;
+    height: 84px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .secondText .left h1 {
+    width: 48px;
+    height: 64px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 64px;
+  }
+  .seccBottomText {
+    width: 335px;
+    height: 112px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 140px 0 0 -70px;
+  }
+  .seccFullBottomText p {
+    margin-left: -70px;
+    width: 335px;
+    height: 336px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .socialPlaceImg {
+    height: 252px;
+    width: 335px;
+    margin-left: -70px;
+  }
+}

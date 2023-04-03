@@ -21,57 +21,72 @@ const Team = () => {
     arrows: false,
   };
   return (
-    <div className={styles.main}>
-      <div className={styles.info}>
-        <div className={styles.infoItem}>
-          <span className={styles.subTitle}>Team</span>
-          <h1 className={styles.title}>Meet Our Team</h1>
-          <p className={styles.text}>
-            Since wire-frame renderings are relatively simple and fast to
-            calculate, they are often used in cases
-          </p>
+    <>
+      <div className={styles.main}>
+        <div className={styles.info}>
+          <div className={styles.infoItem}>
+            <span className={styles.subTitle}>Team</span>
+            <h1 className={styles.title}>Meet Our Team</h1>
+            <p className={styles.text}>
+              Since wire-frame renderings are relatively simple and fast to
+              calculate, they are often used in cases
+            </p>
+          </div>
+          <div className={styles.infoBtn}>
+            <button
+              onClick={() => arrowRef.current.slickPrev()}
+              className={styles.btnColor}
+            >
+              <img src={Left} alt="" />
+            </button>
+            <button
+              onClick={() => arrowRef.current.slickNext()}
+              className={styles.btnColor}
+            >
+              <img src={Right} alt="" />
+            </button>
+          </div>
         </div>
-        <div className={styles.infoBtn}>
-          <button
-            onClick={() => arrowRef.current.slickPrev()}
-            className={styles.btnColor}
-          >
-            <img src={Left} alt="" />
-          </button>
-          <button
-            onClick={() => arrowRef.current.slickNext()}
-            className={styles.btnColor}
-          >
-            <img src={Right} alt="" />
-          </button>
+        <div className={styles.card}>
+          <Slider ref={arrowRef} {...settings}>
+            <div className={styles.card_sample}>
+              <div className={styles.cardImg}>
+                <img className={styles.imgBurder} src={Ralph} alt="" />
+              </div>
+              <p className={styles.cardName}>Ralph Edwards</p>
+              <p className={styles.cardProff}>Project Manager</p>
+            </div>
+            <div>
+              <div className={styles.cardImg}>
+                <img className={styles.imgBurder} src={Pena} alt="" />
+              </div>
+              <p className={styles.cardName}>Eleanor Pena</p>
+              <p className={styles.cardProff}>UI Designer</p>
+            </div>
+            <div>
+              <div className={styles.cardImg}>
+                <img className={styles.imgBurder} src={Marvin} alt="" />
+              </div>
+              <p className={styles.cardName}>Marvin McKinney</p>
+              <p className={styles.cardProff}>Full Stack Devolper</p>
+            </div>
+          </Slider>
         </div>
       </div>
-      <div className={styles.card}>
-        <Slider ref={arrowRef} {...settings}>
-          <div className={styles.card_sample}>
-            <div className={styles.cardImg}>
-              <img className={styles.imgBurder} src={Ralph} alt="" />
-            </div>
-            <p className={styles.cardName}>Ralph Edwards</p>
-            <p className={styles.cardProff}>Project Manager</p>
-          </div>
-          <div>
-            <div className={styles.cardImg}>
-              <img className={styles.imgBurder} src={Pena} alt="" />
-            </div>
-            <p className={styles.cardName}>Eleanor Pena</p>
-            <p className={styles.cardProff}>UI Designer</p>
-          </div>
-          <div>
-            <div className={styles.cardImg}>
-              <img className={styles.imgBurder} src={Marvin} alt="" />
-            </div>
-            <p className={styles.cardName}>Marvin McKinney</p>
-            <p className={styles.cardProff}>Full Stack Devolper</p>
-          </div>
-        </Slider>
+      <div className={styles.phoneWrapper}>
+        <b>Team</b>
+        <h1>Meet Our Team</h1>
+        <p>
+          Since wire-frame renderings are relatively simple and fast to
+          calculate, they are often used in cases
+        </p>
+        <div className={styles.item}>
+          <img src={Ralph} alt="" />
+          <h1>Eleanor Pena</h1>
+          <p>UI Designer</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

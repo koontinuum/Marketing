@@ -88,9 +88,12 @@
   list-style: none;
   position: relative;
   z-index: 2;
+  background-color: rgba(238, 238, 238, 0.5);
+  border-radius: 5px;
 }
 
 .menu a {
+  width: 88%;
   border-radius: 5px;
   display: block;
   padding: 0 10px;
@@ -101,12 +104,12 @@
 .menu a:hover {
   color: #ffffff;
   background: #fa541c;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .menu ul {
   position: absolute;
-  left: 0;
-  top: 40px;
+  left: -10px;
+  top: 45px;
   display: none;
   padding: 0;
 }
@@ -115,6 +118,12 @@
 }
 .miniHeader {
   display: none;
+}
+.pagesLink {
+  background-color: #ffffff;
+}
+.linksleft a {
+  margin: 0;
 }
 @media (max-width: 576px) {
   .linksright,

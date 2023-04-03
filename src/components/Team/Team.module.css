@@ -95,47 +95,86 @@
 .card {
   width: 50%;
 }
+.phoneWrapper {
+  display: none;
+}
 
-@media screen and (max-width: 900px) {
+@media (max-width: 576px) {
   .main {
+    display: none;
+  }
+  .phoneWrapper {
+    display: flex;
     flex-direction: column;
-    height: 1212px;
-  }
-
-  .card {
-    overflow: scroll;
-    text-align: center;
-  }
-  .card_sample {
-    text-align: center;
-  }
-
-  .info {
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 80px;
-    align-items: center;
-    height: fit-content;
+    padding: 80px 20px;
+    gap: 64px;
+    height: 1012px;
+    background: url(../../assets/phoneImages/Team/Background.png);
+    background-size: cover;
   }
-
-  .title {
-    color: #fa541c;
+  .phoneWrapper b {
+    width: 33px;
+    height: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #637381;
+  }
+  .phoneWrapper h1 {
+    width: 209px;
+    height: 42px;
+    font-family: "Barlow";
+    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
-  }
-
-  .infoItem {
     text-align: center;
+    color: #fa541c;
   }
-
-  .infoBtn {
-    display: none;
-  }
-
-  .cardImg {
+  .phoneWrapper p {
     width: 335px;
-    height: 446px;
+    height: 84px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .item h1 {
+    width: 98px;
+    height: 26px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .item p {
+    width: 73px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #919eab;
+  }
+  .item img {
+    margin-bottom: 20px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0px;
+    gap: 4px;
   }
 }

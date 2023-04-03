@@ -248,3 +248,56 @@ input:checked + .slider:before {
   justify-content: center;
   margin-top: 15px;
 }
+@media (max-width: 576px) {
+  .pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 20px;
+    gap: 40px;
+    height: 2076px;
+  }
+  .pricingUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    height: 158px;
+  }
+  .pricingUpLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    width: 335px;
+    height: 158px;
+  }
+  .pricingTitle {
+    width: 252px;
+    height: 42px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .pricingTxt {
+    width: 335px;
+    height: 56px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .pricingDown {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .basicItem {
+    height: 500px;
+  }
+}
