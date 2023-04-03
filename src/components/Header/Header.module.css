@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 100px;
   font-family: "Poppins", sans-serif;
@@ -87,9 +88,12 @@
   list-style: none;
   position: relative;
   z-index: 2;
+  background-color: rgba(238, 238, 238, 0.5);
+  border-radius: 5px;
 }
 
 .menu a {
+  width: 88%;
   border-radius: 5px;
   display: block;
   padding: 0 10px;
@@ -100,27 +104,40 @@
 .menu a:hover {
   color: #ffffff;
   background: #fa541c;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .menu ul {
   position: absolute;
-  left: 0;
-  top: 40px;
+  left: -10px;
+  top: 45px;
   display: none;
   padding: 0;
 }
 .menu li:hover ul {
   display: block;
 }
-
+.miniHeader {
+  display: none;
+}
+.pagesLink {
+  background-color: #ffffff;
+}
+.linksleft a {
+  margin: 0;
+}
 @media (max-width: 576px) {
-  .linksright {
-    display: none;
-  }
-  .linksleft ul {
-    display: none;
-  }
+  .linksright,
+  .linksleft ul,
   .linksleft a {
     display: none;
+  }
+  .header {
+    align-items: center;
+  }
+  .miniHeader {
+    display: flex;
+    gap: 28.47px;
+    align-items: center;
+    margin-right: -350px;
   }
 }

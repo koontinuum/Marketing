@@ -73,6 +73,36 @@ function OurWorkMenu() {
         </div>
         <button className={css.viewbtn}>View All →</button>
       </div>
+      <div className={css.phoneWrapper}>
+        <p>Our Work</p>
+        <h1>Case Studies</h1>
+        <div className={css.items}>
+          <div className={css.item1}>
+            <p>marketing</p>
+            <h1>General Electric</h1>
+          </div>
+          <div className={css.item2}>
+            <p>marketing</p>
+            <h1>General Electric</h1>
+          </div>
+          <div className={css.item3}>
+            <p>marketing</p>
+            <h1>General Electric</h1>
+          </div>
+          <div className={css.item4}>
+            <p>marketing</p>
+            <h1>General Electric</h1>
+          </div>
+          <div className={css.item5}>
+            <p>marketing</p>
+            <h1>General Electric</h1>
+          </div>
+          <div className={css.item6}>
+            <p>marketing</p>
+            <h1>General Electric</h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

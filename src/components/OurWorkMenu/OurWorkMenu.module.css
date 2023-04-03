@@ -294,3 +294,110 @@
   color: #fa541c;
   margin-bottom: 120px;
 }
+.phoneWrapper {
+  display: none;
+}
+@media (max-width: 576px) {
+  .wrapper {
+    display: none;
+  }
+  .phoneWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 16px;
+    height: 2552px;
+  }
+  .phoneWrapper p {
+    width: 66px;
+    height: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .phoneWrapper h1 {
+    width: 185px;
+    height: 42px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #212b36;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 16px;
+    gap: 64px;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+    background-repeat: no-repeat;
+    width: 335px;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+  .item1 {
+    background: url(../../assets/phoneImages/item1.svg);
+  }
+  .item2 {
+    background: url(../../assets/phoneImages/item2.svg);
+  }
+  .item3 {
+    background: url(../../assets/phoneImages/item3.svg);
+  }
+  .item4 {
+    background: url(../../assets/phoneImages/item4.svg);
+  }
+  .item5 {
+    background: url(../../assets/phoneImages/item5.svg);
+  }
+  .item6 {
+    background: url(../../assets/phoneImages/item6.svg);
+  }
+  .item1 p,
+  .item2 p,
+  .item3 p,
+  .item4 p,
+  .item5 p,
+  .item6 p {
+    width: 70px;
+    height: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.48;
+  }
+  .item1 h1,
+  .item2 h1,
+  .item3 h1,
+  .item4 h1,
+  .item5 h1,
+  .item6 h1 {
+    height: 28px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

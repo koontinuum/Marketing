@@ -60,3 +60,40 @@
   text-align: center;
   color: #212b36;
 }
+@media (max-width: 576px) {
+  .whoWe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+  .whoWeRight h2 {
+    width: 188px;
+    height: 42px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-left: -30px;
+  }
+  .whoWeRight p {
+    width: 335px;
+    height: 280px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #637381;
+    margin-left: -100px;
+  }
+  .whoWeLeftImg {
+    display: none;
+  }
+  .whoWeBottom {
+    flex-direction: column;
+  }
+}

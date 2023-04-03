@@ -58,70 +58,85 @@ export default class CustomArrows extends Component {
       ),
     };
     return (
-      <div className={css.slideContent}>
-        <div className="container">
-          <div>
-            <Slider {...settings}>
-              <div>
-                <h3 className={css.slide}>
-                  <p>
-                    Amazing experience i love it a lot. Thanks to the team that
-                    dreams come true, great! I appreciate there attitude and
-                    approach.
-                  </p>
-                  <h1>
-                    <img src={avatar} alt="" />
-                    <p>Robert Fox</p>
-                    <b>Designer</b>
-                  </h1>
-                </h3>
-              </div>
-              <div>
-                <h3 className={css.slide}>
-                  <p>
-                    Amazing experience i love it a lot. Thanks to the team that
-                    dreams come true, great! I appreciate there attitude and
-                    approach.
-                  </p>
-                  <h1>
-                    <img src={avatar} alt="" />
-                    <p>Robert Fox</p>
-                    <b>Designer</b>
-                  </h1>
-                </h3>
-              </div>
-              <div>
-                <h3 className={css.slide}>
-                  <p>
-                    Amazing experience i love it a lot. Thanks to the team that
-                    dreams come true, great! I appreciate there attitude and
-                    approach.
-                  </p>
-                  <h1>
-                    <img src={avatar} alt="" />
-                    <p>Robert Fox</p>
-                    <b>Designer</b>
-                  </h1>
-                </h3>
-              </div>
-              <div>
-                <h3 className={css.slide}>
-                  <p>
-                    Amazing experience i love it a lot. Thanks to the team that
-                    dreams come true, great! I appreciate there attitude and
-                    approach.
-                  </p>
-                  <h1>
-                    <img src={avatar} alt="" />
-                    <p>Robert Fox</p>
-                    <b>Designer</b>
-                  </h1>
-                </h3>
-              </div>
-            </Slider>
+      <>
+        <div className={css.slideContent}>
+          <div className="container">
+            <div>
+              <Slider {...settings}>
+                <div>
+                  <h3 className={css.slide}>
+                    <p>
+                      Amazing experience i love it a lot. Thanks to the team
+                      that dreams come true, great! I appreciate there attitude
+                      and approach.
+                    </p>
+                    <h1>
+                      <img src={avatar} alt="" />
+                      <p>Robert Fox</p>
+                      <b>Designer</b>
+                    </h1>
+                  </h3>
+                </div>
+                <div>
+                  <h3 className={css.slide}>
+                    <p>
+                      Amazing experience i love it a lot. Thanks to the team
+                      that dreams come true, great! I appreciate there attitude
+                      and approach.
+                    </p>
+                    <h1>
+                      <img src={avatar} alt="" />
+                      <p>Robert Fox</p>
+                      <b>Designer</b>
+                    </h1>
+                  </h3>
+                </div>
+                <div>
+                  <h3 className={css.slide}>
+                    <p>
+                      Amazing experience i love it a lot. Thanks to the team
+                      that dreams come true, great! I appreciate there attitude
+                      and approach.
+                    </p>
+                    <h1>
+                      <img src={avatar} alt="" />
+                      <p>Robert Fox</p>
+                      <b>Designer</b>
+                    </h1>
+                  </h3>
+                </div>
+                <div>
+                  <h3 className={css.slide}>
+                    <p>
+                      Amazing experience i love it a lot. Thanks to the team
+                      that dreams come true, great! I appreciate there attitude
+                      and approach.
+                    </p>
+                    <h1>
+                      <img src={avatar} alt="" />
+                      <p>Robert Fox</p>
+                      <b>Designer</b>
+                    </h1>
+                  </h3>
+                </div>
+              </Slider>
+            </div>
           </div>
         </div>
-      </div>
+        <div className={css.phoneWrapper}>
+          <p>Testimonials</p>
+          <h1>Who Love Our Work</h1>
+          <div className={css.main}>
+            <p>
+              Amazing experience i love it a lot. Thanks to the team that dreams
+              come true, great! I appreciate there attitude and approach.
+            </p>
+            <img src={avatar} alt="" />
+            <h1>Robert Fox</h1>
+            <b>Designer</b>
+          </div>
+        </div>
+      </>
     );
   }
 }

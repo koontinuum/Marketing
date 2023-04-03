@@ -1,6 +1,7 @@
 import headerLogo from "../../assets/headerLogo/headerLogo.svg";
 import ellipse from "../../assets/headerLogo/ellipse.svg";
 import search from "../../assets/headerLogo/search.svg";
+import burger from "../../assets/headerLogo/burger.svg";
 import searchWorld from "../../assets/headerLogo/searchWorld.svg";
 import layer from "../../assets/headerLogo/layer.svg";
 import css from "./HeaderSeo.module.css";
@@ -18,17 +19,31 @@ function HeaderSeo() {
                 <img src={ellipse} alt="" />
               </a>
             </div>
+            <div className={css.miniHeader}>
+              <div>
+                <img src={headerLogo} alt="" />
+                <img src={ellipse} alt="" />
+              </div>
+              <div className={css.burgers}>
+                <img src={burger} alt="" />
+                <img src={search} alt="" />
+              </div>
+            </div>
             <Link to="/">Home</Link>
             <a href="#">Components</a>
             <ul className={css.selectMenu}>
               <li>
-                <a href="">Pages</a>
+                <a className={css.pagesLink} href="">
+                  Pages
+                </a>
                 <ul>
                   <li>
                     <Link to="/seopage">SeoPage</Link>
                     <Link to="/casepage">CasePage</Link>
                     <Link to="/studiespage">CaseStudiesPage</Link>
+                    <Link to="/sliderspage">SlidersPage</Link>
                     <Link to="/blogpage">BlogPage</Link>
+                    <Link to="/visionpage">VisionPage</Link>
                     <Link to="/contactpage">ContactPage</Link>
                   </li>
                 </ul>

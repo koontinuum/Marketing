@@ -34,3 +34,34 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 576px) {
+  .main {
+    display: flex;
+    height: 482px;
+  }
+  .mainbrands {
+    display: flex;
+    margin-left: -150px;
+  }
+  .up {
+    flex-direction: column;
+    display: flex;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .up img {
+    height: 25.599998474121094px;
+    width: 85.35631561279297px;
+    left: 10.306640625px;
+    top: 3px;
+    border-radius: 0px;
+  }
+  .bottom img {
+    height: 25.599998474121094px;
+    width: 85.35631561279297px;
+    left: 10.306640625px;
+    top: 3px;
+    border-radius: 0px;
+  }
+}

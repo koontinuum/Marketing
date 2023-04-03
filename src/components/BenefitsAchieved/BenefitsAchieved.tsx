@@ -11,6 +11,36 @@ function BenefitsAchieved() {
             suscipit non, turpis.
           </p>
         </div>
+        <div className={css.miniBottom}>
+          <div>
+            <h1>Online Media Management</h1>
+            <p>
+              Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
+              nisi.
+            </p>
+          </div>
+          <div>
+            <h1>Online Media Management</h1>
+            <p>
+              Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
+              nisi.
+            </p>
+          </div>
+          <div>
+            <h1>Online Media Management</h1>
+            <p>
+              Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
+              nisi.
+            </p>
+          </div>
+          <div>
+            <h1>Online Media Management</h1>
+            <p>
+              Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec,
+              nisi.
+            </p>
+          </div>
+        </div>
         <div className={css.bottom}>
           <div className={css.leftstate}>
             <div className={css.left}>

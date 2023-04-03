@@ -156,3 +156,35 @@
 .seo {
   cursor: pointer;
 }
+@media (max-width: 576px) {
+  .up {
+    width: 335px;
+    height: 186px;
+    align-items: center;
+  }
+  .up p {
+    text-align: center;
+    width: 335px;
+    height: 84px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 335px;
+    height: 1720px;
+  }
+  .seo,
+  .email,
+  .search,
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 32px;
+    gap: 40px;
+    height: 374px;
+  }
+}
