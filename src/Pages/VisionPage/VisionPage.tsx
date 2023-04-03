@@ -16,9 +16,10 @@ function VisionPage() {
   return (
     <>
       <Header />
-      <WhoWe />
-      <Our />
-      <OurStory />
+
+      <WhoWe/>
+      <Our/>
+      <OurStory/>
       <MarketingTeam />
       <Testimonials />
       <BrandsClients />
