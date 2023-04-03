@@ -59,7 +59,7 @@ function SocialPlace() {
           Praesent egestas tristique nibh
         </p>
       </div>
-      <img src={socialPlaceImg} alt="" />
+      <img className={css.socialPlaceImg} src={socialPlaceImg} alt="" />
     </div>
   );
 }

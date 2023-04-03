@@ -85,12 +85,41 @@
   line-height: 26px;
   color: #212b36;
 }
-.share{
+.share {
   display: flex;
 }
-.share h5{
+.share h5 {
   margin-right: 15px;
 }
-.share img{
+.share img {
   margin-right: 21px;
+}
+
+@media (max-width: 576px) {
+  .pBreifAll {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .pBreifRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 24px;
+    width: 305px;
+    height: 568px;
+    background: #f9fafb;
+    border-radius: 16px;
+  }
+  .pBreifLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px 80px;
+    gap: 40px;
+    width: 305px;
+    height: 1455.25px;
+    background: #ffffff;
+    border-radius: 16px;
+  }
 }

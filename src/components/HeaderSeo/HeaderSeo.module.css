@@ -86,12 +86,19 @@
 
 .selectMenu li {
   display: flex;
-  align-items: start;
-  justify-content: start;
-  text-align: start;
   flex-direction: column;
+  align-items: start;
+  text-align: start;
+  justify-content: start;
   list-style: none;
   position: relative;
+  z-index: 2;
+  border-radius: 5px;
+  background-color: #212b36;
+}
+
+.pagesLink {
+  background-color: #212b36;
 }
 .selectMenu a {
   border-radius: 5px;
@@ -101,14 +108,16 @@
   line-height: 40px;
   transition: all 0.5s;
 }
+
 .selectMenu a:hover {
   color: #ffffff;
   background: #fa541c;
+  transform: scale(1.2);
 }
 .selectMenu ul {
   position: absolute;
-  left: 0;
-  top: 40px;
+  left: 0px;
+  top: 45px;
   display: none;
   padding: 0;
 }
@@ -197,6 +206,7 @@
   color: #ffffff;
   border: none;
 }
+
 .miniHeader {
   display: none;
 }
